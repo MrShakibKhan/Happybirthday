@@ -32,7 +32,6 @@ body {
 
 .card .imgBox {
     position: relative;
-    border: 5px solid #ef5050
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -41,6 +40,7 @@ body {
     background: #000;
     transition: 1s;
     box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
+    border: 5px solid #ef5050
 }
 
 .card:hover .imgBox {
@@ -64,7 +64,6 @@ body {
 
 .card .details {
     position: absolute;
-    border: 5px solid #ef5050
     top: 0;
     left: 0;
     width: 100%;
@@ -73,6 +72,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px solid #ef5050
 
 }
 
